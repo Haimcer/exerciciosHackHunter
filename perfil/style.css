@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #pagina{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #121419;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inicio{
+    display: flex;
+    flex-direction: column;
+    background-color: #090B0D;
+  }
+  #sobreMim{
+    background-color: #1A1E26;
+    padding-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+#meusInteresses{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 8vw;
+}
+
+
+
+.nome{
+    color: white;
+}
+
+.profissao{
+    color: white;
+    padding-bottom: 2vw;
+}
+
+header{
+    background-image: url("assets/capa/capa.png");
+    background-size: cover;
+    padding-top: 5vw;
+    text-align: center;
+    padding-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(37, 37, 37, 1);
+    
+}
+#containerPerfil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36vw;
+  height: 36vw;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white
+}
+
+.linhaDivisoria {
+    background-color: rgb(139, 151, 198);
+    margin: 0px;
+    padding: 0.5px;
+    min-width: 100vh;
+} 
+  .redeSocial {
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 1vw 1vw 1vw;
+  }
+  .redeSocial a{
+    padding: 1vw 1vw 1vw 1vw;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 1vw;
+  }
+
+  .icon {
+    padding: 1px 1px 1px 1px;
+    height: 5vw;
+    width: 5vw;
+    filter: invert(1);
+  }
+
+  .caixaDeTexto{
+   margin-top: 2%;
+   display: flex;
+   flex-direction: row;
+  }
+
+  .separador{
+    width: 14vw;
+  }
+
+  .linhaTitulo{
+    background-color: rgb(139, 151, 198);
+    padding: 0.5px;
+    width: 12%;
+  }
+  .linhaSubtitulo{
+    background-color: rgb(139, 151, 198);
+    padding: 0.5px;
+    width: 6%;
+    margin-top: 4px;
+  }
+.titulo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+    color: white;
+    font-size: 160%;
+    font-weight: 900;
+    padding-bottom: 0.5%;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.caixaDeTexto p{
+  padding-top: 1%;
+  color: white;
+  font-size: 1.3vw;
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#interesses{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 3%;
+}
+
+#interesses h2 {
+  text-align: start;
+}
+#interesses h4 {
+font-size: 1.2vw;
+}
+#imagens{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: start;
+}
+
+#imagens div{
+  color: white;
+  border-radius: 8px;
+  background-color: #4C5359;
+  width: 17%;
+  text-align: center;
+  margin-top: 3%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px 6px 6px;
+}
+.iconInteresse{
+  height: 3vw;
+  width: 3vw;
+  filter: invert(1);
+}
+
+#informacaoPessoal{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+#container-info{
+  display: flex;
+  flex-direction: row;
+}
+
+#info{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#linhaInformacoes{
+  margin-top: 3%;
+  background-color: rgb(139, 151, 198);
+  padding: 1px;
+  width: 45%;
+}
+
+#competencias{
+  background-color: #090B0D;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#competencias h2{
+  padding-top: 5%;
+  margin-top: 10%;
+  color: white;
+  font-size: 3vw;
+  margin-bottom: 1%;
+}
+#competenciasImages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#imagensCompetencias{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+#imagensCompetencias div{
+  margin-right: 15px;
+  color: white;
+  border-radius: 8px;
+  background-color: #4C5359;
+  width: 13%;
+  text-align: center;
+  margin-top: 3%;
+}
+#imagensCompetencias h4{
+  font-size: 1.2vw;
+}
+.iconCompetencia{
+  padding: 3px;
+  height: 10vh;
+  width: 10vh;
+  filter: invert(1);
+}
+
+#final{
+  margin-top: 25%;
+}
+
+.linhaCompetencia{
+  background-color: rgb(139, 151, 198);
+  padding: 0.5px;
+  width: 12%;
+  margin-inline: 46%;
+}
+.linhaSubtituloCompetencia{
+  background-color: rgb(139, 151, 198);
+  padding: 0.5px;
+  width: 6%;
+  margin-inline: 49%;
+  margin-top: 4px;
+  margin-bottom: 3%;
+}
